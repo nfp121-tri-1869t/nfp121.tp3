@@ -9,7 +9,6 @@ public interface PileI<T> {
 
     public void empiler(T o) throws PilePleineException;
     public T depiler() throws PileVideException;
-    
     public T sommet() throws PileVideException;
     public int capacite();
     public int taille();
